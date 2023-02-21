@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <style>
+        .a1{
+            color: navy;
+            background-color: aqua;
+        }
+        .b1{
+            color: blueviolet;
+        }
+        .c1{
+            color: green;
+        }
+        .d1{
+            color: purple;
+        }
+        .e1{
+            color: orangered;
+        }
+        .f1{
+            color: green;
+        }
+        .rs{
+            background: orangered;
+        }.cs{
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(162, 187, 125);">
+    <center>
+        <h1 style="color: red;"><ins>Time-Table</ins></h1>
+        <table border="2" width="500" height="35">
+            <tr>
+                <th class="a1">Day</th>
+                <th class="a1">9.00 to 11.00</th>
+                <th class="a1">11.00 to 1.00</th>
+                <th class="a1">1.00 to 2.00</th>
+                <th class="a1">2.00 to 4.00</th>
+            </tr>
+            <tr>
+                <td align="center" class="b1">Monday</td>
+                <td align="center" class="b1">Maths</td>
+                <td align="center" class="b1">English</td>
+                <td rowspan="5" align="center" class="rs">Luanch-Break</td>
+                <td align="center" class="b1">Science</td>
+            </tr>
+            <tr>
+                <td align="center" class="c1">Tuesday</td>
+                <td colspan="2" align="center" class="cs">Maths</td>
+                <td rowspan="2" align="center" class="rs">English</td>
+            </tr>
+            <tr>
+                <td align="center" class="d1">Wednesday</td>
+                <td align="center" class="d1">Maths</td>
+                <td align="center" class="d1">Science</td>
+            </tr>
+            <tr>
+                <td align="center" class="e1">Thursday</td>
+                <td align="center" class="e1">English</td>
+                <td align="center" class="e1">Maths</td>
+                <td align="center" class="e1">Science</td>
+            </tr>
+            <tr>
+                <td align="center" class="f1">Friday</td>
+                <td colspan="2" align="center" class="cs">English</td>
+                <td align="center" class="f1">Maths</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
